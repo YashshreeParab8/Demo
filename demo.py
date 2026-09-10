@@ -7,3 +7,5 @@ a = input("Enter your number:")
 b = 20
 c = a + b
 print(c)
+
+#ncsjk
