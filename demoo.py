@@ -157,24 +157,43 @@
 #    print("Not leap year")
 
 #calculator
-a=int(input("Enter first no-"))
-b=int(input("Enter second no-"))
-choice=int(input(("1-addition\n2-subtraction\n3-multiplication\n4-division\nEnter your choice:")))
+#a=int(input("Enter first no-"))
+#b=int(input("Enter second no-"))
+#choice=int(input(("1-addition\n2-subtraction\n3-multiplication\n4-division\nEnter your choice:")))
 
-match choice:
-    case 1: 
-            print("addition=",a+b)
+#match choice:
+#    case 1: 
+#            print("addition=",a+b)
 
-    case 2: 
-            print("Subtraction=",a-b)
+#    case 2: 
+#            print("Subtraction=",a-b)
 
-    case 3: 
-            print("Multiplication=",a*b)
+#    case 3: 
+#            print("Multiplication=",a*b)
 
-    case 4: 
-              if b==0:
-                print("Division by 0 not possible")
-              else:
-                print("Division=",a/b)
+#    case 4: 
+#              if b==0:
+#                print("Division by 0 not possible")
+#              else:
+#                print("Division=",a/b)
 
-    case _: print("invalid choice")
+#   case _: print("invalid choice")
+
+#HOMEWORK 11/9/26
+
+#Q1 Traffic Signal: Red -> "Stop"
+#   Yellow -> "Get Ready"
+#   Green -> "Go"  Handle invalid colors
+
+color = input("Enter a color:").lower()
+if color == 'red':
+    print("Stop")
+
+elif color == 'yellow':
+    print("Get ready")
+
+elif color == 'green':
+    print("Go")
+
+else:
+    print("Invalid color")
